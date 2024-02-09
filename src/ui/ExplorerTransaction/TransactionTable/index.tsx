@@ -1,12 +1,12 @@
 "use client";
 
 import { EXPLORER } from "@/contants";
-import { useKaleidoTransactionDetail } from "@/libs/reactQuery";
+// import { useKaleidoTransactionDetail } from "@/libs/reactQuery";
 
 import Link from "next/link";
 
 import clsx from "clsx";
-import { Arrows, ChevronLeft, GreennetLogo, Info, Loader } from "icons/src";
+// import { Arrows, ChevronLeft, GreennetLogo, Info, Loader } from "icons/src";
 import { Button } from "@/components/ui/button";
 
 import { CopyComponent } from "../../components";
@@ -16,40 +16,40 @@ type ITransactionTableProps = {
 };
 
 export const TransactionTable = ({ hash }: ITransactionTableProps) => {
-  const { data, isLoading, isSuccess } = useKaleidoTransactionDetail({ hash });
+  // const { data, isLoading, isSuccess } = useKaleidoTransactionDetail({ hash });
 
-  if (isLoading) {
-    return (
-      <Loader className=" absolute bottom-0 left-0 right-0 top-0 m-auto h-20 w-20 animate-spin text-green-0 " />
-    );
-  }
+  // if (isLoading) {
+  //   return (
+  //     <Loader className=" absolute bottom-0 left-0 right-0 top-0 m-auto h-20 w-20 animate-spin text-green-0 " />
+  //   );
+  // }
 
-  const {
-    blockHash,
-    blockNumber,
-    from,
-    hash: _hash,
-    status,
-    to,
-    inputBytes,
-    gasProvided,
-  } = data || {};
+  // const {
+  //   blockHash,
+  //   blockNumber,
+  //   from,
+  //   hash: _hash,
+  //   status,
+  //   to,
+  //   inputBytes,
+  //   gasProvided,
+  // } = data || {};
 
-  const dataTable = [
-    { title: "Block Hash", value: blockHash },
-    { title: "Block Number", value: blockNumber },
-    { title: "Input Bytes", value: inputBytes || "" },
-    { title: "Gas Provided", value: Number(gasProvided || 0) },
-    { title: "From", value: from, link: `${EXPLORER.ADDRESS}/${from}` },
-    { title: "To", value: to, link: `${EXPLORER.ADDRESS}/${to}` },
-    { title: "Status", value: status },
-  ];
+  // const dataTable = [
+  //   { title: "Block Hash", value: blockHash },
+  //   { title: "Block Number", value: blockNumber },
+  //   { title: "Input Bytes", value: inputBytes || "" },
+  //   { title: "Gas Provided", value: Number(gasProvided || 0) },
+  //   { title: "From", value: from, link: `${EXPLORER.ADDRESS}/${from}` },
+  //   { title: "To", value: to, link: `${EXPLORER.ADDRESS}/${to}` },
+  //   { title: "Status", value: status },
+  // ];
 
-  const gasTable = [{ title: "Gas Provided", value: Number(gasProvided || 0) }];
+  // const gasTable = [{ title: "Gas Provided", value: Number(gasProvided || 0) }];
 
   return (
     <div className="flex flex-col gap-8">
-      <div className="bg-gray-9 flex flex-col items-start gap-8 self-stretch rounded-3xl p-5 sm:p-10">
+      {/* <div className="bg-gray-9 flex flex-col items-start gap-8 self-stretch rounded-3xl p-5 sm:p-10">
         <div className="flex items-center justify-between self-stretch">
           <Link href={EXPLORER.MAIN}>
             <Button
@@ -168,7 +168,7 @@ export const TransactionTable = ({ hash }: ITransactionTableProps) => {
           />
         </Link>
         <div className="flex h-10 w-[5.875rem] flex-col items-center justify-between"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

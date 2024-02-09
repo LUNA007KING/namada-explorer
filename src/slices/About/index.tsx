@@ -65,7 +65,7 @@ const About = (): JSX.Element => {
         }}
       >
         <div className="flex items-center justify-center gap-5 px-5">
-          {dots?.map((item, index) => {
+          {dots?.map((item: any, index) => {
             return (
               <div
                 key={index}

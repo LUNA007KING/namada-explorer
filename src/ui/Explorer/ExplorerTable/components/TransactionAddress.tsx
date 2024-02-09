@@ -1,7 +1,7 @@
 "use client";
 
 import { tokenQueryKeys } from "@/query-keys";
-import { getKaleidoTransactionByAddress } from "@/services";
+import { getTransactionByAddress } from "@/services";
 import { LIMIT_LIST } from "@/utils/constant";
 import { Transaction } from "@/utils/types";
 
@@ -28,7 +28,7 @@ const useGetTransactions = ({
   const query = useQuery({
     queryKey: [...tokenQueryKeys.transactionsByAddress(address), pageParam],
     queryFn: () => {
-      return getKaleidoTransactionByAddress({
+      return getTransactionByAddress({
         address,
         page: pageParam,
         limit: LIMIT_LIST,

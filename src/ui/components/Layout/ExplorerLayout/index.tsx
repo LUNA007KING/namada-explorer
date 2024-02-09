@@ -1,6 +1,6 @@
 import { ExplorerHeader } from "./components/ExplorerHeader";
 
-export const ExplorerLayout = ({ children, ...props }) => {
+export const ExplorerLayout = ({ children, ...props }: any) => {
   return (
     <div className="flex flex-col ">
       <ExplorerHeader />

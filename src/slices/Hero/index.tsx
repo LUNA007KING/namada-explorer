@@ -1,16 +1,11 @@
 import { SUITE } from "@/contants";
-import Nav from "@/src/ui/Home/Nav";
+// import Nav from "@/src/ui/Home/Nav";
 import NavMobile from "@/src/ui/components/Nav/NavMobile";
 import ScrollTo from "@/src/ui/components/ScrollTo";
 
 import React from "react";
 
 import Link from "next/link";
-
-// import { Content } from "@prismicio/client";
-// import { PrismicNextImage } from "@prismicio/next";
-// import { PrismicText, SliceComponentProps } from "@prismicio/react";
-// import { Button, Drawer } from "ui";
 import { Logo } from "ui/components";
 
 import "./styles.css";
@@ -36,7 +31,7 @@ const Hero = ({ slice }: any): JSX.Element => {
                 <NavMobile />
               </Drawer> */}
             </div>
-            <Nav />
+            {/* <Nav /> */}
             <div className="absolute right-0 hidden items-center gap-4 sm:flex">
               <Link href={SUITE.MAIN}>
                 <Button>{"Block Explorer"}</Button>

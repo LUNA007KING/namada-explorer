@@ -6,11 +6,8 @@ import { useRef } from "react";
 
 import { useRouter } from "next/navigation";
 
-// import { SmallDot } from "icons/src";
-// import { Button, Drawer, IRefDrawerFunctionProps, Tooltips } from "ui";
-
 export const ExplorerDrawer = () => {
-  const ref = useRef<IRefDrawerFunctionProps>(null);
+  const ref = useRef<any>(null);
   const router = useRouter();
 
   const onToggle = () => {
