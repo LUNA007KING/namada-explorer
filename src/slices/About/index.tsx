@@ -106,28 +106,26 @@ const About = (): JSX.Element => {
                   />
 
                   <div className="flex flex-col items-center justify-center gap-3 self-stretch sm:items-start sm:gap-6">
-                    <div className="text-green-0 self-stretch text-center text-[1.6rem] font-semibold leading-none sm:text-start sm:text-[3.25rem] sm:leading-[62px]">
+                    <div className="text-yellow-1 self-stretch text-center text-[1.6rem] font-semibold leading-none sm:text-start sm:text-[3.25rem] sm:leading-[62px]">
                       {item.abouttitle[0].text}
                     </div>
-                    <div className="text-gray-2 text-[14px] leading-6 sm:text-[16px]">
-                      {/* <PrismicRichText field={item.aboutdecs} /> */}
+                    <div className="text-yellow-1 text-[14px] leading-6 sm:text-[16px]">
                       {item.aboutdecs[0].text}
                     </div>
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <div className="text-gray-6 w-40 text-center text-[4rem] font-semibold leading-[100px] sm:w-80 sm:text-[6.25rem]">
+                  <div className="text-yellow-1 w-40 text-center text-[4rem] font-semibold leading-[100px] sm:w-80 sm:text-[6.25rem]">
                     {i + 1}
                   </div>
-                  <div className="flex items-center gap-4">
+                  {/* <div className="flex items-center gap-4">
                     <div className="text-white-0 text-[12px] font-semibold leading-6 sm:text-[16px]">
-                      {/* <PrismicRichText field={item.linktitle} /> */}
                       {item.linktitle[0].text}
                     </div>
                     <Button>
                       <ArrowRight height={24} width={24} />
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             );

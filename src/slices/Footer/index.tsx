@@ -1,8 +1,10 @@
 import { Input } from "@/components/ui/input";
-import NamadaLogo from "../LogoNamada";
+import NamadaLogo from "@/src/ui/components/LogoNamada";
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import content from "./content.json";
 
 export default async function Footer() {
+  const data = content as any;
   return (
     <div
       className="flex w-full flex-col items-center gap-6 p-[2rem] pb-10 sm:items-start sm:pl-[3.75rem] sm:pr-[3.75rem] sm:pt-[6.25rem]"
@@ -28,26 +30,24 @@ export default async function Footer() {
             <Instagram height={32} width={32} color="white" />
           </div>
         </div>
-        {/* {subfooter.data.slices.map((item, i) => {
+        {data.slices.map((item: any, i: any) => {
           return (
             <div key={i} className="flex flex-col items-start gap-4">
               <div className="text-white-0 font-semibold leading-6">
-                <PrismicRichText field={item.primary.title} />
+                {item.primary.title[0].text}
               </div>
               <div className="flex flex-col items-start gap-4">
-                {item?.items?.map((link, i) => {
+                {item?.items?.map((link: any, i: any) => {
                   return (
-                    <PrismicNextLink key={i} field={item.link}>
-                      <div className=" text-gray-5 text-sm leading-5">
-                        <PrismicRichText field={link.name} />
-                      </div>
-                    </PrismicNextLink>
+                    <div key={i} className=" text-gray-5 text-sm leading-5">
+                      {link.name[0]?.text}
+                    </div>
                   );
                 })}
               </div>
             </div>
           );
-        })} */}
+        })}
       </div>
       <div className="flex w-32 items-center justify-center sm:w-full">
         <NamadaLogo height={218} width={176} />

@@ -100,6 +100,7 @@ const config = {
         },
         yellow: {
           0: '#FFB839',
+          1: 'rgb(255 255 0/1)'
         },
       },
       borderRadius: {

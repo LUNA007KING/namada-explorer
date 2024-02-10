@@ -5,4 +5,6 @@ export const components = {
   about: dynamic(() => import("./About")),
   big_section: dynamic(() => import("./TabSection")),
   hero: dynamic(() => import("./Hero")),
+  footer: dynamic(() => import("./Footer")),
+  nav: dynamic(() => import("./Nav")),
 };

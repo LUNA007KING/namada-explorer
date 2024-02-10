@@ -1,8 +1,7 @@
 "use client";
 
+import { Check, Copy } from "lucide-react";
 import { useEffect, useState } from "react";
-
-// import { Check, Copy } from "icons/src";
 
 export const CopyComponent = ({ value }: { value: string }) => {
   const [hasCopy, setCopy] = useState(false);
@@ -31,11 +30,11 @@ export const CopyComponent = ({ value }: { value: string }) => {
 
   return (
     <>
-      {/* {hasCopy ? (
+      {hasCopy ? (
         <Check width={24} height={24} />
       ) : (
         <Copy width={24} height={24} onClick={onCopy} />
-      )} */}
+      )}
     </>
   );
 };

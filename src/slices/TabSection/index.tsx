@@ -40,7 +40,7 @@ const BigSection = (): JSX.Element => {
   const [[page, direction], setPage] = useState([0, 0]);
 
   const data = content;
-  const tabIndex = wrap(0, 3, page);
+  const tabIndex = wrap(0, data.length, page);
 
   const paginate = (newDirection: number) => {
     setPage([page + newDirection, newDirection]);
@@ -52,14 +52,18 @@ const BigSection = (): JSX.Element => {
 
   return (
     <div className="w-full px-3 pt-[8rem] sm:px-[6.25rem] sm:pt-[200px] ">
+      <div className="text-yellow-1 pb-[2rem] text-center text-[1.5rem] font-semibold leading-none sm:pb-0 sm:text-[3.25rem] sm:leading-[76px]">
+        <span id="section-1">{"Features"}</span>
+        <span className="text-green-0 ">.</span>
+      </div>
       <div className="flex flex-col items-center gap-[2rem]  sm:gap-[100px] sm:pl-[10.3125rem] sm:pr-[10.3125rem] sm:pt-[6.25rem]">
-        <div className="bg-gray-8 flex w-full max-w-[700px] items-start gap-2.5 rounded-[1.25rem]">
+        <div className="bg-gray-8 flex w-full max-w-[900px] items-start gap-2.5 rounded-[1.25rem]">
           <div className="flex flex-1 items-start gap-2.5">
             {data.map((item, i) => (
               <button
                 key={i}
                 className={clsx(
-                  "text-white-0 hover:text-gray-2 relative flex flex-1 items-center justify-center gap-2 rounded-[1.25rem] px-3 py-2 text-center font-medium leading-6 transition"
+                  "text-yellow-1 hover:text-gray-2 relative flex flex-1 items-center justify-center gap-2 rounded-[1.25rem] px-3 py-2 text-center font-medium leading-6 transition"
                 )}
                 onClick={() => {
                   setPage([i, direction]);
@@ -115,8 +119,6 @@ const BigSection = (): JSX.Element => {
               }}
             >
               <div className="flex flex-1 items-center justify-center ">
-                {/* <PrismicNextImage field={data?.[tabIndex]?.sectionimg} /> */}
-                {/* {data?.[tabIndex].sectionimg.url} */}
                 <Image
                   src={data?.[tabIndex].sectionimg.url}
                   width={320}
@@ -127,13 +129,13 @@ const BigSection = (): JSX.Element => {
               </div>
               <div className="flex flex-1 flex-col items-center gap-[1rem] sm:items-start sm:gap-8">
                 <div className="flex flex-col items-start gap-1 sm:gap-6">
-                  <div className="investing text-green-0  w-[13.25rem] font-medium leading-6">
+                  <div className="investing text-yellow-1  w-[13.25rem] font-medium leading-6">
                     {data?.[tabIndex]?.sectionsub[0].text}
                   </div>
-                  <div className="text-white-0 text-[1.5rem] font-semibold leading-[62px] sm:text-[3.25rem]">
+                  <div className="text-yellow-1 text-[1.5rem] font-semibold leading-[62px] sm:text-[3.25rem]">
                     {data?.[tabIndex]?.sectiontitle[0].text}
                   </div>
-                  <div className="text-gray-2  self-stretch text-lg leading-7">
+                  <div className="text-yellow-1  self-stretch text-lg leading-7">
                     {data?.[tabIndex]?.sectiondecs[0].text}
                   </div>
                 </div>
