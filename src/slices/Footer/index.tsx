@@ -1,10 +1,13 @@
+"use client";
+
 import { Input } from "@/components/ui/input";
 import LogoSVG from "@/public/icons/logo.svg";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import content from "./content.json";
 
-export default async function Footer() {
+export default function Footer() {
   const data = content as any;
+
   return (
     <div
       className="flex w-full flex-col items-center gap-6 p-[2rem] pb-10 sm:items-start sm:pl-[3.75rem] sm:pr-[3.75rem] sm:pt-[6.25rem]"

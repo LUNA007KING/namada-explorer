@@ -29,8 +29,6 @@ const nextConfig = {
       return config;
     },
     reactStrictMode: true,
-    transpilePackages: ["ui", "icons"],
-    swcMinify: true,
     images: {
       formats: ["image/avif", "image/webp"],
       unoptimized: true,

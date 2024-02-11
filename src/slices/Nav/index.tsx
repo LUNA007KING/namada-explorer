@@ -1,7 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import content from "./content.json";
 
-export default async function Nav() {
+export default function Nav() {
   const data = content;
 
   return (

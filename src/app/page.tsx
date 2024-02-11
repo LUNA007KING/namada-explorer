@@ -1,5 +1,3 @@
-'use client';
-
 import About from "../slices/About";
 import Footer from "../slices/Footer";
 import Hero from "../slices/Hero";

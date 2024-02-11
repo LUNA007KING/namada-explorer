@@ -1,6 +1,6 @@
+"use client";
+
 import { EXPLORER } from "@/contants";
-// import Nav from "@/src/ui/Home/Nav";
-import NavMobile from "@/src/ui/components/Nav/NavMobile";
 import ScrollTo from "@/src/ui/components/ScrollTo";
 
 import React from "react";
@@ -16,6 +16,7 @@ import Nav from "../Nav";
 
 const Hero = (): JSX.Element => {
   const data = content;
+
   return (
     <div className="relative m-[0.375rem] h-full sm:m-6">
       <div className="-z-1">
@@ -32,9 +33,6 @@ const Hero = (): JSX.Element => {
           <div className="flex w-full items-center justify-center">
             <div className="absolute left-0 flex h-8 w-full flex-shrink-0 flex-row items-center justify-between gap-2">
               <Logo />
-              {/* <Drawer>
-                <NavMobile />
-              </Drawer> */}
             </div>
             <Nav />
             <div className="absolute right-0 hidden items-center gap-4 sm:flex">
