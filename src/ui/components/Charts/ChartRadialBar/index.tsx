@@ -27,7 +27,7 @@ export const ChartRadialBar = ({ ratio }: { ratio: number }) => {
   const chartOptions: ApexChartsProps = {
     series: [ratio],
     options: {
-      colors: ["#43E8B3"],
+      colors: ["#ffff00"],
       chart: {
         type: "radialBar",
       },

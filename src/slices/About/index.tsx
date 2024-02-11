@@ -94,14 +94,14 @@ const About = (): JSX.Element => {
             return (
               <div
                 key={i}
-                className="bg-gray-9 min-w-[200px] rounded-[60px] p-4 sm:p-[3.75rem]"
+                className="border-[1px] border-yellow-1 min-w-[200px] rounded-[60px] p-4 sm:p-[3.75rem]"
               >
                 <div className="flex flex-col items-center justify-center gap-5 sm:flex-row sm:gap-10">
                   <Image
                     src={item.aboutimg.url}
                     width={320}
                     height={320}
-                    className="lightgray 50% / cover no-repeat, h-40 w-40 sm:h-80 sm:w-80"
+                    className="lightgray 50% / cover no-repeat, h-40 w-40 rounded-lg sm:h-80 sm:w-[480px]"
                     alt=""
                   />
 

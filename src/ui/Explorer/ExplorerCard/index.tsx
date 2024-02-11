@@ -18,15 +18,15 @@ export const ExplorerCard = ({
   chart,
 }: IExplorerCardProps) => {
   return (
-    <div className="bg-gray-9 flex-1 flex-col items-center gap-3 rounded-2xl p-4">
+    <div className=" border-yellow-1 border-[1px] flex-1 flex-col items-center gap-3 rounded-2xl p-4">
       <div className="flex w-full items-start justify-between gap-3 self-stretch">
         <div className="text-2 flex flex-col items-start gap-2">
-          <div className="text-gray-2 self-stretch leading-6">{title}</div>
+          <div className="text-yellow-1 self-stretch leading-6">{title}</div>
           <div className="flex w-full items-center gap-1 self-stretch">
-            <div className="41 text-white-0 text-2xl font-semibold leading-8">
+            <div className="41 text-yellow-1 text-2xl font-semibold leading-8">
               {value}
             </div>
-            <div className="cam_active  text-gray-2 text-sm leading-5">
+            <div className="cam_active  text-yellow-1 text-sm leading-5">
               {prefixValue}
             </div>
           </div>
