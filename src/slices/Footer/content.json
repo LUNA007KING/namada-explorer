@@ -148,62 +148,6 @@
       "id": "footer_item$6d1fc254-ae31-4cf5-b7e0-f48dd6812dc5",
       "slice_type": "footer_item",
       "slice_label": null
-    },
-    {
-      "variation": "default",
-      "version": "initial",
-      "items": [
-        {
-          "name": [
-            {
-              "type": "paragraph",
-              "text": "Item navigation"
-            }
-          ],
-          "link": {
-            "link_type": "Any"
-          }
-        },
-        {
-          "name": [
-            {
-              "type": "paragraph",
-              "text": "Item navigation"
-            }
-          ],
-          "link": {
-            "link_type": "Any"
-          }
-        },
-        {
-          "name": [
-            {
-              "type": "paragraph",
-              "text": "Item navigation"
-            }
-          ],
-          "link": {
-            "link_type": "Any"
-          }
-        },
-        {
-          "name": [],
-          "link": {
-            "link_type": "Any"
-          }
-        }
-      ],
-      "primary": {
-        "title": [
-          {
-            "type": "paragraph",
-            "text": "Heading 4"
-          }
-        ]
-      },
-      "id": "footer_item$f9c3c756-8f38-46e4-9d51-3149427deecf",
-      "slice_type": "footer_item",
-      "slice_label": null
     }
   ]
 }

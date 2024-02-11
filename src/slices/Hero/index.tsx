@@ -1,4 +1,4 @@
-import { EXPLORER, SUITE } from "@/contants";
+import { EXPLORER } from "@/contants";
 // import Nav from "@/src/ui/Home/Nav";
 import NavMobile from "@/src/ui/components/Nav/NavMobile";
 import ScrollTo from "@/src/ui/components/ScrollTo";

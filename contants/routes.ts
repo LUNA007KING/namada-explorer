@@ -6,11 +6,3 @@ export const EXPLORER = {
   TRANSACTION: "/explorer/transaction",
   ADDRESS: "/explorer/address",
 };
-
-export const SUITE = {
-  MAIN: "/suite",
-};
-
-export const INVEST = {
-  MAIN: "/invest",
-};

@@ -58,7 +58,7 @@ export const ExplorerTitle = () => {
 
   return (
     <div className="flex flex-col items-center justify-between gap-4 self-stretch sm:flex-row">
-      <div className="green_net_explorer leading-0 text-white-0 w-[540px] text-[1.5rem] font-semibold sm:text-[2.5rem] sm:leading-[48px]">
+      <div className="green_net_explorer leading-0 text-yellow-1 w-[540px] text-[1.5rem] font-semibold sm:text-[2.5rem] sm:leading-[48px]">
         {title}
       </div>
       <div className="w-full sm:w-72">

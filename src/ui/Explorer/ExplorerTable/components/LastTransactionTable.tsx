@@ -136,7 +136,7 @@ export const LastTransactionTable = () => {
 
   return (
     <div className="border-gray-8 flex-1 rounded-2xl border">
-      <div className="text-white-0 px-3 py-4 text-lg font-semibold sm:px-6">
+      <div className="text-yellow-1 px-3 py-4 text-lg font-semibold sm:px-6">
         Latest transactions
       </div>
       {renderContent()}

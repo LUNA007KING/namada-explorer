@@ -1,7 +1,5 @@
 "use client";
 
-import { SUITE } from "@/contants/routes";
-
 import { useState } from "react";
 
 import Link from "next/link";
@@ -12,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import content from "./content.json";
 import clsx from "clsx";
 import Image from "next/image";
+import { EXPLORER } from "@/contants";
 
 const variants = {
   enter: (direction: number) => {
@@ -139,7 +138,7 @@ const BigSection = (): JSX.Element => {
                     {data?.[tabIndex]?.sectiondecs[0].text}
                   </div>
                 </div>
-                <Link href={SUITE.MAIN} className="w-full">
+                <Link href={EXPLORER.MAIN} className="w-full">
                   <Button>{"Get started"}</Button>
                 </Link>
               </div>
