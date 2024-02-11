@@ -1,9 +1,8 @@
-import { SUITE } from "@/contants";
-
 import React from "react";
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { EXPLORER } from "@/contants";
 
 export default async function NavMobile() {
   return (
@@ -21,7 +20,7 @@ export default async function NavMobile() {
           })} */}
         </div>
         <div className="flex flex-col items-start justify-center gap-3 self-stretch">
-          <Link href={SUITE.MAIN} className="w-full">
+          <Link href={EXPLORER.MAIN} className="w-full">
             <Button>{"Block Explorer"}</Button>
           </Link>
         </div>
