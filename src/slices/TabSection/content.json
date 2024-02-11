@@ -2,40 +2,26 @@
   {
     "tabname": [
       {
-        "type": "paragraph",
-        "text": "Investing",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Multichain Privacy"
       }
     ],
     "sectiontitle": [
       {
-        "type": "paragraph",
-        "text": "Investing",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Unified Shielded Set"
       }
     ],
     "sectiondecs": [
       {
-        "type": "paragraph",
-        "text": "Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features. Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features.",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Merge the fragmentation of asset management across diverse blockchains with Namada's Unified Shielded Set. Namada's cohesive architecture unifies a range of assets, ensuring oversight for seamless, cross‑chain interactions that are private in nature."
       }
     ],
     "sectionsub": [
       {
-        "type": "paragraph",
-        "text": "Investing",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Unified Shielded Set"
       }
     ],
     "sectionlink": {
-      "link_type": "Web",
-      "url": "#",
-      "target": ""
+      "url": "#"
     },
     "sectionimg": {
       "dimensions": {
@@ -43,48 +29,61 @@
         "height": 357
       },
       "alt": null,
-      "copyright": null,
-      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress",
-      "id": "ZYLE-FMawoRaJs74",
-      "edit": {
-        "x": 0,
-        "y": 0,
-        "zoom": 1,
-        "background": "transparent"
-      }
+      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress"
     }
   },
   {
     "tabname": [
       {
-        "type": "paragraph",
-        "text": "Banking",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Private DeFi"
       }
     ],
     "sectiontitle": [
       {
-        "type": "paragraph",
-        "text": "Banking",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Private DeFi via Shielded Actions"
       }
     ],
     "sectiondecs": [
       {
-        "type": "paragraph",
-        "text": "Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features. Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features.",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Namada's Shielded Actions create a private layer for decentralized finance, enabling users to interact privately even when engaging with transparent chains such as Ethereum, Osmosis, and Celestia."
       }
     ],
     "sectionsub": [
       {
-        "type": "paragraph",
-        "text": "Banking",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Private DeFi via Shielded Actions"
+      }
+    ],
+    "sectionlink": {
+      "link_type": "Any"
+    },
+    "sectionimg": {
+      "dimensions": {
+        "width": 357,
+        "height": 357
+      },
+      "alt": null,
+      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress"
+    }
+  },
+  {
+    "tabname": [
+      {
+        "text": "IBC Interoper­ability"
+      }
+    ],
+    "sectiontitle": [
+      {
+        "text": "IBC Interoper­ability"
+      }
+    ],
+    "sectiondecs": [
+      {
+        "text": "Namada's integration with the IBC protocol ensures a seamless connection across Cosmos blockchains. Users can perform efficient transactions across interconnected blockchains in the Cosmos network without sacrificing their privacy."
+      }
+    ],
+    "sectionsub": [
+      {
+        "text": "IBC Interoper­ability"
       }
     ],
     "sectionlink": {
@@ -97,47 +96,28 @@
       },
       "alt": null,
       "copyright": null,
-      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress",
-      "id": "ZYLE-FMawoRaJs74",
-      "edit": {
-        "x": 0,
-        "y": 0,
-        "zoom": 1,
-        "background": "transparent"
-      }
+      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress"
     }
   },
   {
     "tabname": [
       {
-        "type": "paragraph",
-        "text": "Payments",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Ethereum Bridge"
       }
     ],
     "sectiontitle": [
       {
-        "type": "paragraph",
-        "text": "Payments",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Ethereum Bridge"
       }
     ],
     "sectiondecs": [
       {
-        "type": "paragraph",
-        "text": "Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features. Money management made a breeze. Keep a close eye on spending with smart insights and intuitive features.",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Namada's Ethereum bridge enables you to mint, redeem, and shield ERC20 tokens, providing a robust connection between Ethereum and Namada, while also maintaining the user's privacy through shielded transactions."
       }
     ],
     "sectionsub": [
       {
-        "type": "paragraph",
-        "text": "Payments",
-        "spans": [],
-        "direction": "ltr"
+        "text": "Ethereum Bridge"
       }
     ],
     "sectionlink": {
@@ -150,14 +130,41 @@
       },
       "alt": null,
       "copyright": null,
-      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress",
-      "id": "ZYLE-FMawoRaJs74",
-      "edit": {
-        "x": 0,
-        "y": 0,
-        "zoom": 1,
-        "background": "transparent"
+      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress"
+    }
+  },
+  {
+    "tabname": [
+      {
+        "text": "Earn Rewards"
       }
+    ],
+    "sectiontitle": [
+      {
+        "text": "Earn Rewards for Shielding your Assets"
+      }
+    ],
+    "sectiondecs": [
+      {
+        "text": "Namada offers tangible rewards as an acknowledgment of valuable user participation in contributing to a secure and private multichain ecosystem. By contributing to the shielded set, you not only help build a more private multichain ecosystem but also earn tangible rewards as an acknowledgment of your valuable participation."
+      }
+    ],
+    "sectionsub": [
+      {
+        "text": "Earn Rewards for Shielding your Assets"
+      }
+    ],
+    "sectionlink": {
+      "link_type": "Any"
+    },
+    "sectionimg": {
+      "dimensions": {
+        "width": 357,
+        "height": 357
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.prismic.io/greengnt/6582c4f8531ac2845a26cef8_coins.png?auto=format,compress"
     }
   }
 ]

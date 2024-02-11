@@ -17,7 +17,7 @@ const ScrollTo = () => {
           setCurrent((v) => (v === 4 ? 0 : v + 1));
         }}
       >
-        <ArrowDown width={32} height={32} />
+        <ArrowDown color="white" width={32} height={32} />
       </Link>
     </div>
   );
